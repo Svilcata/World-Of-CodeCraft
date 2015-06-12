@@ -27,6 +27,7 @@ namespace World_Of_CodeCraft
         #region GameState
         GameStateManager stateManager;
         public TitleScreen TitleScreen;
+        public StartMenuScreen StartMenuScreen;
         #endregion
 
         #region ScreenField
@@ -39,19 +40,23 @@ namespace World_Of_CodeCraft
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
+
             graphics.PreferredBackBufferWidth = screenWidth;
             graphics.PreferredBackBufferHeight = screenHeight;
-            ScreenRectangle = new Rectangle(
-            0,
-            0,
-            screenWidth,
-            screenHeight);
+
+            ScreenRectangle = new Rectangle(0,0,screenWidth,screenHeight);
+
             Content.RootDirectory = "Content";
             Components.Add(new InputHandler(this));
+
             stateManager = new GameStateManager(this);
             Components.Add(stateManager);
+
             TitleScreen = new TitleScreen(this, stateManager);
+
+            StartMenuScreen = new GameScreens.StartMenuScreen(this, stateManager);
             stateManager.ChangeState(TitleScreen);
+
         }
         protected override void Initialize()
         {

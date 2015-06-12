@@ -7,3 +7,4 @@ C:\Users\Svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\World-O
 C:\Users\Svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\obj\x86\Debug\World_Of_CodeCraft.exe
 C:\Users\Svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\obj\x86\Debug\World_Of_CodeCraft.pdb
 C:\Users\Svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\bin\x86\Debug\Content\Backgrounds\titlescreen.xnb
+C:\Users\Svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\bin\x86\Debug\Content\Fonts\ControlFont.xnb

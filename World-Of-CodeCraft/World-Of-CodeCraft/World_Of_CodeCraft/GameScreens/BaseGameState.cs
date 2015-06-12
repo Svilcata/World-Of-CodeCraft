@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.Graphics;
 using XRpgLibrary;
+using XRpgLibrary.Controls;
 
 
 namespace World_Of_CodeCraft.GameScreens
@@ -12,16 +15,36 @@ namespace World_Of_CodeCraft.GameScreens
     {
         #region Fields
         protected Game1 GameRef;
+        protected ControlManager ControlManager;
+        protected PlayerIndex playerIndexInControl;
         #endregion
-
-        #region Properties
-
+        #region Properties region
         #endregion
-
-        #region Constructor
-        public BaseGameState(Game game, GameStateManager manager) : base(game, manager)
+        #region Constructor Region
+        public BaseGameState(Game game, GameStateManager manager)
+            : base(game, manager)
         {
             GameRef = (Game1)game;
+            playerIndexInControl = PlayerIndex.One;
+        }
+        #endregion
+
+        #region XNAMethod
+        protected override void LoadContent()
+        {
+            ContentManager Content = Game.Content;
+            SpriteFont menuFont = Content.Load<SpriteFont>(@"Fonts\ControlFont");
+            ControlManager = new ControlManager(menuFont);
+            base.LoadContent();
+        }
+
+        public override void Update(GameTime gameTime)
+        {
+            base.Update(gameTime);
+        }
+        public override void Draw(GameTime gameTime)
+        {
+            base.Draw(gameTime);
         }
         #endregion
     }

@@ -17,12 +17,19 @@ namespace XRpgLibrary
     /// </summary>
     public class InputHandler : Microsoft.Xna.Framework.GameComponent
     {
-        #region Field
+        
+        #region KeyboardField
         private static KeyboardState keyboardState;
         private static KeyboardState lastKeyboardState;
         #endregion
+        
+        
+        #region GamePadField
+        static GamePadState[] gamePadStates; //There can be four game pads connected
+        static GamePadState[] lastGamePadStates; //There can be four game pads connected
+        #endregion
 
-        #region Property
+        #region KeyboardProperty
         public static KeyboardState KeyboardState
         {
             get { return keyboardState; }
@@ -34,14 +41,28 @@ namespace XRpgLibrary
         }
         #endregion
 
-        #region Constructor
-        public InputHandler(Game game)
-            : base(game)
+        #region GamePadProperty
+        public static GamePadState[] GamePadStates
         {
-            keyboardState = Keyboard.GetState();
+            get { return gamePadStates;}
+        }
+
+        public static GamePadState[] LastGamePadStates
+        {
+            get { return lastGamePadStates;}
         }
         #endregion
 
+        #region Constructor
+        public InputHandler(Game game) : base(game)
+        {
+            keyboardState = Keyboard.GetState();
+            gamePadStates = new GamePadState[Enum.GetValues(typeof(PlayerIndex)).Length];
+            foreach (PlayerIndex index in Enum.GetValues(typeof (PlayerIndex)))
+                gamePadStates[(int) index] = GamePad.GetState(index);
+        }
+        #endregion
+        
         #region XnaMethods
 
         public override void Initialize()
@@ -53,6 +74,9 @@ namespace XRpgLibrary
         {
             lastKeyboardState = keyboardState;
             keyboardState = Keyboard.GetState();
+            lastGamePadStates = (GamePadState[]) gamePadStates.Clone();
+            foreach (PlayerIndex index in Enum.GetValues(typeof (PlayerIndex)))
+                gamePadStates[(int) index] = GamePad.GetState(index);
             base.Update(gameTime);
         }
         #endregion
@@ -63,7 +87,7 @@ namespace XRpgLibrary
             lastKeyboardState = keyboardState;
         }
         #endregion
-
+        //keyboard keymaping
         #region Keyboard
         public static bool KeyReleased(Keys key)
         {
@@ -76,6 +100,23 @@ namespace XRpgLibrary
         public static bool KeyDown(Keys key)
         {
             return keyboardState.IsKeyDown(key);
+        }
+        #endregion
+        //gamepad keymaping
+        #region GamePad
+        public static bool ButtonReleased(Buttons button, PlayerIndex index)
+        {
+            return gamePadStates[(int) index].IsButtonUp(button) && lastGamePadStates[(int) index].IsButtonDown(button);
+        }
+
+        public static bool ButtonPressed(Buttons button, PlayerIndex index)
+        {
+            return gamePadStates[(int)index].IsButtonUp(button) && lastGamePadStates[(int)index].IsButtonDown(button);
+        }
+
+        public static bool ButtonDown(Buttons button, PlayerIndex index)
+        {
+            return gamePadStates[(int) index].IsButtonDown(button);
         }
         #endregion
     }
