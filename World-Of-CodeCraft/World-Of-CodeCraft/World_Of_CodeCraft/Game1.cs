@@ -28,6 +28,7 @@ namespace World_Of_CodeCraft
         GameStateManager stateManager;
         public TitleScreen TitleScreen;
         public StartMenuScreen StartMenuScreen;
+        public GamePlayScreen GamePlayScreen;
         #endregion
 
         #region ScreenField
@@ -53,8 +54,8 @@ namespace World_Of_CodeCraft
             Components.Add(stateManager);
 
             TitleScreen = new TitleScreen(this, stateManager);
-
             StartMenuScreen = new GameScreens.StartMenuScreen(this, stateManager);
+            GamePlayScreen = new GamePlayScreen(this, stateManager);
             stateManager.ChangeState(TitleScreen);
 
         }

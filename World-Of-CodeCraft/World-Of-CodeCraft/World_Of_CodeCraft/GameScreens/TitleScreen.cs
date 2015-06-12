@@ -28,7 +28,7 @@ namespace World_Of_CodeCraft.GameScreens
         protected override void LoadContent()
         {
             ContentManager Content = GameRef.Content;
-            backgroundImage = Content.Load<Texture2D>(@"Backgrounds\titlescreen");
+            backgroundImage = Content.Load<Texture2D>(@"Backgrounds\logo");
             base.LoadContent();
             startLabel = new LinkLabel();
             startLabel.Position = new Vector2(350, 600);

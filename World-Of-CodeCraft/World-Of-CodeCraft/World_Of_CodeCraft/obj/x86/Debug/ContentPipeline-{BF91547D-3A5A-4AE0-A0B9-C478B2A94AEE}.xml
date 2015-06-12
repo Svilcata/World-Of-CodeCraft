@@ -19,6 +19,42 @@
       <Output>C:\Users\Svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\bin\x86\Debug\Content\Fonts\ControlFont.xnb</Output>
       <Time>2015-06-13T00:47:54.3421369+03:00</Time>
     </Item>
+    <Item>
+      <Source>GUI\leftarrowUp.png</Source>
+      <Name>GUI\leftarrowUp</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\bin\x86\Debug\Content\GUI\leftarrowUp.xnb</Output>
+      <Time>2015-06-13T02:04:07.4779595+03:00</Time>
+    </Item>
+    <Item>
+      <Source>GUI\rightarrowUp.png</Source>
+      <Name>GUI\rightarrowUp</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\bin\x86\Debug\Content\GUI\rightarrowUp.xnb</Output>
+      <Time>2015-06-13T02:04:07.4819609+03:00</Time>
+    </Item>
+    <Item>
+      <Source>GUI\StopBar.png</Source>
+      <Name>GUI\StopBar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\bin\x86\Debug\Content\GUI\StopBar.xnb</Output>
+      <Time>2015-06-13T02:04:07.484964+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\logo.png</Source>
+      <Name>Backgrounds\logo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\bin\x86\Debug\Content\Backgrounds\logo.xnb</Output>
+      <Time>2015-06-13T02:10:20.9178183+03:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{BF91547D-3A5A-4AE0-A0B9-C478B2A94AEE}</ContentProjectGUID>
