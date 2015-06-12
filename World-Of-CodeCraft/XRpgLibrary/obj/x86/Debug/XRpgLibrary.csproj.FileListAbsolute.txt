@@ -1,0 +1,6 @@
+c:\users\svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\XRpgLibrary\bin\x86\Debug\XRpgLibrary.dll
+c:\users\svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\XRpgLibrary\bin\x86\Debug\XRpgLibrary.pdb
+c:\users\svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\XRpgLibrary\obj\x86\Debug\XRpgLibrary.csprojResolveAssemblyReference.cache
+c:\users\svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\XRpgLibrary\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\XRpgLibrary\obj\x86\Debug\XRpgLibrary.dll
+c:\users\svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\XRpgLibrary\obj\x86\Debug\XRpgLibrary.pdb

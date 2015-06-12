@@ -1,0 +1,5 @@
+C:\Users\Svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\RpgLibrary\bin\Debug\RpgLibrary.dll
+C:\Users\Svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\RpgLibrary\bin\Debug\RpgLibrary.pdb
+C:\Users\Svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\RpgLibrary\obj\Debug\RpgLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\RpgLibrary\obj\Debug\RpgLibrary.dll
+C:\Users\Svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\RpgLibrary\obj\Debug\RpgLibrary.pdb
