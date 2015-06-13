@@ -4,3 +4,9 @@ c:\users\svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\XRpgLib
 c:\users\svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\XRpgLibrary\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 c:\users\svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\XRpgLibrary\obj\x86\Debug\XRpgLibrary.dll
 c:\users\svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\XRpgLibrary\obj\x86\Debug\XRpgLibrary.pdb
+C:\Users\Bobo\Desktop\sasda\World-Of-CodeCraft\XRpgLibrary\bin\x86\Debug\XRpgLibrary.dll
+C:\Users\Bobo\Desktop\sasda\World-Of-CodeCraft\XRpgLibrary\bin\x86\Debug\XRpgLibrary.pdb
+C:\Users\Bobo\Desktop\sasda\World-Of-CodeCraft\XRpgLibrary\obj\x86\Debug\XRpgLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Bobo\Desktop\sasda\World-Of-CodeCraft\XRpgLibrary\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Bobo\Desktop\sasda\World-Of-CodeCraft\XRpgLibrary\obj\x86\Debug\XRpgLibrary.dll
+C:\Users\Bobo\Desktop\sasda\World-Of-CodeCraft\XRpgLibrary\obj\x86\Debug\XRpgLibrary.pdb

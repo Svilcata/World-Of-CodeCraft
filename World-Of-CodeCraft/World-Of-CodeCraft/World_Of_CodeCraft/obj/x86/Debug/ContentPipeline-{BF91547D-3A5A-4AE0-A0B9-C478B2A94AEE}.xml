@@ -2,22 +2,22 @@
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
-      <Source>Backgrounds\titlescreen.png</Source>
-      <Name>Backgrounds\titlescreen</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\bin\x86\Debug\Content\Backgrounds\titlescreen.xnb</Output>
-      <Time>2015-06-12T15:38:12.0111152+03:00</Time>
-    </Item>
-    <Item>
       <Source>Fonts\ControlFont.spritefont</Source>
       <Name>Fonts\ControlFont</Name>
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\bin\x86\Debug\Content\Fonts\ControlFont.xnb</Output>
+      <Output>C:\Users\Bobo\Desktop\sasda\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\bin\x86\Debug\Content\Fonts\ControlFont.xnb</Output>
       <Time>2015-06-13T00:47:54.3421369+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Backgrounds\titlescreen.png</Source>
+      <Name>Backgrounds\titlescreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Bobo\Desktop\sasda\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\bin\x86\Debug\Content\Backgrounds\titlescreen.xnb</Output>
+      <Time>2015-06-12T15:38:12.0111152+03:00</Time>
     </Item>
     <Item>
       <Source>GUI\leftarrowUp.png</Source>
@@ -25,7 +25,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\bin\x86\Debug\Content\GUI\leftarrowUp.xnb</Output>
+      <Output>C:\Users\Bobo\Desktop\sasda\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\bin\x86\Debug\Content\GUI\leftarrowUp.xnb</Output>
       <Time>2015-06-13T02:04:07.4779595+03:00</Time>
     </Item>
     <Item>
@@ -34,7 +34,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\bin\x86\Debug\Content\GUI\rightarrowUp.xnb</Output>
+      <Output>C:\Users\Bobo\Desktop\sasda\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\bin\x86\Debug\Content\GUI\rightarrowUp.xnb</Output>
       <Time>2015-06-13T02:04:07.4819609+03:00</Time>
     </Item>
     <Item>
@@ -43,7 +43,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\bin\x86\Debug\Content\GUI\StopBar.xnb</Output>
+      <Output>C:\Users\Bobo\Desktop\sasda\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\bin\x86\Debug\Content\GUI\StopBar.xnb</Output>
       <Time>2015-06-13T02:04:07.484964+03:00</Time>
     </Item>
     <Item>
@@ -52,7 +52,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\bin\x86\Debug\Content\Backgrounds\logo.xnb</Output>
+      <Output>C:\Users\Bobo\Desktop\sasda\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\bin\x86\Debug\Content\Backgrounds\logo.xnb</Output>
       <Time>2015-06-13T02:10:20.9178183+03:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -62,10 +62,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraftContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Bobo\Desktop\sasda\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraftContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Bobo\Desktop\sasda\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Bobo\Desktop\sasda\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Bobo\Desktop\sasda\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -94,7 +94,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2015-06-11T20:31:06.6372558+03:00</Value>
+        <Value>2015-06-11T21:12:41.4031764+03:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

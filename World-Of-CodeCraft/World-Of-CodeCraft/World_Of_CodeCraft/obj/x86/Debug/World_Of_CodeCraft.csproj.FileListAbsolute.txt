@@ -12,3 +12,17 @@ C:\Users\Svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\World-O
 C:\Users\Svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\bin\x86\Debug\Content\GUI\rightarrowUp.xnb
 C:\Users\Svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\bin\x86\Debug\Content\GUI\StopBar.xnb
 C:\Users\Svilen\documents\visual studio 2013\Projects\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\bin\x86\Debug\Content\Backgrounds\logo.xnb
+C:\Users\Bobo\Desktop\sasda\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\bin\x86\Debug\Content\Fonts\ControlFont.xnb
+C:\Users\Bobo\Desktop\sasda\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\bin\x86\Debug\Content\Backgrounds\titlescreen.xnb
+C:\Users\Bobo\Desktop\sasda\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\bin\x86\Debug\Content\GUI\leftarrowUp.xnb
+C:\Users\Bobo\Desktop\sasda\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\bin\x86\Debug\Content\GUI\rightarrowUp.xnb
+C:\Users\Bobo\Desktop\sasda\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\bin\x86\Debug\Content\GUI\StopBar.xnb
+C:\Users\Bobo\Desktop\sasda\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\bin\x86\Debug\Content\Backgrounds\logo.xnb
+C:\Users\Bobo\Desktop\sasda\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\bin\x86\Debug\World_Of_CodeCraft.exe
+C:\Users\Bobo\Desktop\sasda\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\bin\x86\Debug\World_Of_CodeCraft.pdb
+C:\Users\Bobo\Desktop\sasda\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\bin\x86\Debug\XRpgLibrary.dll
+C:\Users\Bobo\Desktop\sasda\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\bin\x86\Debug\XRpgLibrary.pdb
+C:\Users\Bobo\Desktop\sasda\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\obj\x86\Debug\World_Of_CodeCraft.csprojResolveAssemblyReference.cache
+C:\Users\Bobo\Desktop\sasda\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Bobo\Desktop\sasda\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\obj\x86\Debug\World_Of_CodeCraft.exe
+C:\Users\Bobo\Desktop\sasda\World-Of-CodeCraft\World-Of-CodeCraft\World_Of_CodeCraft\obj\x86\Debug\World_Of_CodeCraft.pdb
