@@ -32,7 +32,7 @@ namespace World_Of_CodeCraft.GameScreens
             base.LoadContent();
             startLabel = new LinkLabel();
             startLabel.Position = new Vector2(350, 600);
-            startLabel.Text = "Press ENTER to begin";
+            startLabel.Text = "";
             startLabel.Color = Color.White;
             startLabel.TabStop = true;
             startLabel.HasFocus = true;

@@ -32,7 +32,7 @@ namespace World_Of_CodeCraft
         #endregion
 
         #region ScreenField
-        const int screenWidth = 1024;
+        const int screenWidth = 1365;
         const int screenHeight = 768;
         public readonly Rectangle ScreenRectangle;
         #endregion
